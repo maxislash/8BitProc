@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Wilfried/Desktop/EN216/processeur/CPU_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cpu_test" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/cpu_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider13" type="divider">
+      <obj_property name="label">UC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000080</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/UC/FSM/current_s" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">current_s</obj_property>
+      <obj_property name="ObjectShortName">current_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/UC/RI/data_out" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      <obj_property name="label">RI_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/UC/FSM/op_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op_pc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">op_pc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider13" type="divider">
+      <obj_property name="label">UT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000080</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider27" type="divider">
+      <obj_property name="label">Carry</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#808080</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/UT/CAR/data_in" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_in</obj_property>
+      <obj_property name="ObjectShortName">data_in</obj_property>
+      <obj_property name="label">Carry_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/UT/CAR/data_out" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_out</obj_property>
+      <obj_property name="ObjectShortName">data_out</obj_property>
+      <obj_property name="label">Carry_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider25" type="divider">
+      <obj_property name="label">R1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#808080</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/UT/R1/data_in" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      <obj_property name="label">R1_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/UT/R1/data_out" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      <obj_property name="label">R1_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider26" type="divider">
+      <obj_property name="label">ACCU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#808080</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/UT/AC/data_in" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      <obj_property name="label">ACCU_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/UT/AC/data_out" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      <obj_property name="label">ACCU_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider13" type="divider">
+      <obj_property name="label">UM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000080</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/UM/ram" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram[0:63]</obj_property>
+      <obj_property name="ObjectShortName">ram[0:63]</obj_property>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">ram[0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">ram[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">ram[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">ram[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">ram[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">ram[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">ram[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">ram[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">ram[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">ram[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">ram[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">ram[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">ram[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">ram[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">ram[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">ram[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">ram[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[17]" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">ram[17]</obj_property>
+         <obj_property name="label">allone</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[18]" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">ram[18]</obj_property>
+         <obj_property name="label">one</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">ram[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[20]" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">ram[20]</obj_property>
+         <obj_property name="label">a</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[21]" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">ram[21]</obj_property>
+         <obj_property name="label">b</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[22]" type="array" db_ref_id="1">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">ram[22]</obj_property>
+         <obj_property name="label">[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">ram[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">ram[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">ram[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">ram[26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">ram[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">ram[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">ram[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">ram[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">ram[31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[32]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">ram[32]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[33]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[33]</obj_property>
+         <obj_property name="ObjectShortName">ram[33]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[34]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[34]</obj_property>
+         <obj_property name="ObjectShortName">ram[34]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[35]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[35]</obj_property>
+         <obj_property name="ObjectShortName">ram[35]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[36]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[36]</obj_property>
+         <obj_property name="ObjectShortName">ram[36]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[37]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[37]</obj_property>
+         <obj_property name="ObjectShortName">ram[37]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[38]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[38]</obj_property>
+         <obj_property name="ObjectShortName">ram[38]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[39]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[39]</obj_property>
+         <obj_property name="ObjectShortName">ram[39]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[40]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[40]</obj_property>
+         <obj_property name="ObjectShortName">ram[40]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[41]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[41]</obj_property>
+         <obj_property name="ObjectShortName">ram[41]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[42]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[42]</obj_property>
+         <obj_property name="ObjectShortName">ram[42]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[43]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[43]</obj_property>
+         <obj_property name="ObjectShortName">ram[43]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[44]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[44]</obj_property>
+         <obj_property name="ObjectShortName">ram[44]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[45]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[45]</obj_property>
+         <obj_property name="ObjectShortName">ram[45]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[46]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[46]</obj_property>
+         <obj_property name="ObjectShortName">ram[46]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[47]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[47]</obj_property>
+         <obj_property name="ObjectShortName">ram[47]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[48]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[48]</obj_property>
+         <obj_property name="ObjectShortName">ram[48]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[49]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[49]</obj_property>
+         <obj_property name="ObjectShortName">ram[49]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[50]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[50]</obj_property>
+         <obj_property name="ObjectShortName">ram[50]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[51]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[51]</obj_property>
+         <obj_property name="ObjectShortName">ram[51]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[52]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[52]</obj_property>
+         <obj_property name="ObjectShortName">ram[52]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[53]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[53]</obj_property>
+         <obj_property name="ObjectShortName">ram[53]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[54]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[54]</obj_property>
+         <obj_property name="ObjectShortName">ram[54]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[55]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[55]</obj_property>
+         <obj_property name="ObjectShortName">ram[55]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[56]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[56]</obj_property>
+         <obj_property name="ObjectShortName">ram[56]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[57]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[57]</obj_property>
+         <obj_property name="ObjectShortName">ram[57]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[58]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[58]</obj_property>
+         <obj_property name="ObjectShortName">ram[58]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[59]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[59]</obj_property>
+         <obj_property name="ObjectShortName">ram[59]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[60]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[60]</obj_property>
+         <obj_property name="ObjectShortName">ram[60]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[61]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[61]</obj_property>
+         <obj_property name="ObjectShortName">ram[61]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[62]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[62]</obj_property>
+         <obj_property name="ObjectShortName">ram[62]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/UM/ram[63]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[63]</obj_property>
+         <obj_property name="ObjectShortName">ram[63]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/UM/add" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">add[5:0]</obj_property>
+      <obj_property name="ObjectShortName">add[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/UM/adr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">adr[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/UM/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider99" type="divider">
+      <obj_property name="label">acces_carte</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000080</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus105" type="vbus" db_ref_id="1">
+      <obj_property name="label">Adr</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/cpu_test/uut/acces_carte_a/adrmsb" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">adrmsb[1:0]</obj_property>
+         <obj_property name="ObjectShortName">adrmsb[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/acces_carte_a/adrlsb" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">adrlsb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">adrlsb[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus106" type="vbus" db_ref_id="1">
+      <obj_property name="label">Data</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/cpu_test/uut/acces_carte_a/datamsb" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">datamsb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">datamsb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/acces_carte_a/datalsb" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">datalsb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">datalsb[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/acces_carte_a/datainmem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datainmem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">datainmem[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus112" type="vbus" db_ref_id="1">
+      <obj_property name="label">AN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <wvobject fp_name="/cpu_test/uut/acces_carte_a/an1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">an1</obj_property>
+         <obj_property name="ObjectShortName">an1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/acces_carte_a/an2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">an2</obj_property>
+         <obj_property name="ObjectShortName">an2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/acces_carte_a/an3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">an3</obj_property>
+         <obj_property name="ObjectShortName">an3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cpu_test/uut/acces_carte_a/an4" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">an4</obj_property>
+         <obj_property name="ObjectShortName">an4</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/acces_carte_a/sseg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sseg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sseg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/acces_carte_a/adrmsb_4bits" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adrmsb_4bits[3:0]</obj_property>
+      <obj_property name="ObjectShortName">adrmsb_4bits[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/acces_carte_a/adrlsb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adrlsb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">adrlsb[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/acces_carte_a/datamsb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datamsb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">datamsb[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/uut/acces_carte_a/datalsb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datalsb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">datalsb[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
